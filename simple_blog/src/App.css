@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blogs{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  justify-content: space-around;
+}
+.blog{
+  /* border: 2px solid black; */
+  color: black;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  width: 300px;
+  height: 180px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.blog h3{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog .description{
+  font-size: 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.blog .author{
+  color: grey;
+}
+
+.blogPage{
+  text-align: center;
+  padding: 5px 10px;
+}
+.blogPage p{
+  font-size: 20px;
+}
+.blogPage .author{
+  color: rgb(70, 66, 66);
+}
