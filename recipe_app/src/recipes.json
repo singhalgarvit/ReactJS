@@ -1,0 +1,242 @@
+[
+    {
+        "recipe_id": 1,
+        "recipe_name": "Chhole Bhature",
+        "category": "veg",
+        "ingredients": ["Maida", "Chickpeas", "Chhole Masala"],
+        "time": "30min",
+        "steps": [
+            "Cook Chhole: Pressure cook soaked chickpeas. Sauté onions, garlic, ginger, and tomatoes with spices. Add cooked chickpeas and simmer. Garnish with coriander.",
+            "Prepare Bhature Dough: Mix maida, sooji, curd, baking soda, and salt. Knead into a soft dough. Rest for 2 hours.",
+            "Fry Bhature: Roll dough into discs and deep fry until puffed."
+        ]
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "Butter Chicken",
+        "category": "nonveg",
+        "ingredients": ["Chicken", "Butter", "Cream", "Tomato Puree"],
+        "time": "40min",
+        "steps": [
+            "Marinate chicken with yogurt, ginger-garlic paste, and spices for 1 hour.",
+            "Cook chicken in butter until golden brown.",
+            "Prepare gravy with butter, tomato puree, cream, and spices. Add cooked chicken and simmer."
+        ]
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Paneer Butter Masala",
+        "category": "veg",
+        "ingredients": ["Paneer", "Butter", "Tomato Puree", "Cream"],
+        "time": "30min",
+        "steps": [
+            "Fry paneer lightly and set aside.",
+            "Prepare gravy with butter, tomato puree, and spices. Add cream and paneer.",
+            "Simmer for 10 minutes and serve hot."
+        ]
+    },
+    {
+        "recipe_id": 4,
+        "recipe_name": "Mutton Rogan Josh",
+        "category": "nonveg",
+        "ingredients": ["Mutton", "Yogurt", "Spices", "Onions"],
+        "time": "1hr",
+        "steps": [
+            "Marinate mutton with yogurt and spices for 2 hours.",
+            "Sauté onions and add mutton. Cook until tender.",
+            "Simmer with water and spices to form a rich gravy."
+        ]
+    },
+    {
+        "recipe_id": 5,
+        "recipe_name": "Veg Pulao",
+        "category": "veg",
+        "ingredients": ["Basmati Rice", "Vegetables", "Spices"],
+        "time": "25min",
+        "steps": [
+            "Sauté whole spices and vegetables.",
+            "Add soaked rice and water. Cook until rice is fluffy.",
+            "Garnish with fried onions and serve."
+        ]
+    },
+    {
+        "recipe_id": 6,
+        "recipe_name": "Chicken Biryani",
+        "category": "nonveg",
+        "ingredients": ["Chicken", "Basmati Rice", "Spices", "Yogurt"],
+        "time": "1hr",
+        "steps": [
+            "Marinate chicken with yogurt and spices.",
+            "Cook rice until half done. Layer chicken and rice in a pot.",
+            "Seal and cook on low heat until fully done."
+        ]
+    },
+    {
+        "recipe_id": 7,
+        "recipe_name": "Aloo Paratha",
+        "category": "veg",
+        "ingredients": ["Wheat Flour", "Potatoes", "Spices"],
+        "time": "20min",
+        "steps": [
+            "Prepare dough with wheat flour and water.",
+            "Stuff dough with spiced mashed potatoes. Roll into parathas.",
+            "Cook on a tawa with ghee until golden brown."
+        ]
+    },
+    {
+        "recipe_id": 8,
+        "recipe_name": "Fish Curry",
+        "category": "nonveg",
+        "ingredients": ["Fish", "Coconut Milk", "Spices"],
+        "time": "35min",
+        "steps": [
+            "Marinate fish with turmeric and salt. Fry lightly.",
+            "Prepare curry with coconut milk and spices. Add fish and simmer.",
+            "Serve hot with rice."
+        ]
+    },
+    {
+        "recipe_id": 9,
+        "recipe_name": "Dal Tadka",
+        "category": "veg",
+        "ingredients": ["Toor Dal", "Onions", "Tomatoes", "Spices"],
+        "time": "25min",
+        "steps": [
+            "Cook dal in a pressure cooker.",
+            "Prepare tadka with onions, tomatoes, and spices. Add to dal.",
+            "Garnish with coriander and serve."
+        ]
+    },
+    {
+        "recipe_id": 10,
+        "recipe_name": "Egg Curry",
+        "category": "nonveg",
+        "ingredients": ["Eggs", "Onions", "Tomatoes", "Spices"],
+        "time": "30min",
+        "steps": [
+            "Boil eggs and set aside.",
+            "Prepare gravy with onions, tomatoes, and spices.",
+            "Add eggs and simmer for 10 minutes."
+        ]
+    },
+    {
+        "recipe_id": 11,
+        "recipe_name": "Shahi Paneer",
+        "category": "veg",
+        "ingredients": ["Paneer", "Cashews", "Cream", "Spices"],
+        "time": "40min",
+        "steps": [
+            "Make a paste of soaked cashews and blend with cream.",
+            "Cook paneer in a rich gravy made from cashew paste and spices.",
+            "Simmer and garnish with coriander."
+        ]
+    },
+    {
+        "recipe_id": 12,
+        "recipe_name": "Tandoori Chicken",
+        "category": "nonveg",
+        "ingredients": ["Chicken", "Yogurt", "Tandoori Masala"],
+        "time": "50min",
+        "steps": [
+            "Marinate chicken with yogurt and tandoori masala for 4 hours.",
+            "Grill or bake until cooked and charred.",
+            "Serve with lemon and onion rings."
+        ]
+    },
+    {
+        "recipe_id": 13,
+        "recipe_name": "Vegetable Fried Rice",
+        "category": "veg",
+        "ingredients": ["Cooked Rice", "Vegetables", "Soy Sauce"],
+        "time": "20min",
+        "steps": [
+            "Stir-fry vegetables in oil.",
+            "Add cooked rice and soy sauce. Mix well.",
+            "Serve hot with chili sauce."
+        ]
+    },
+    {
+        "recipe_id": 14,
+        "recipe_name": "Prawn Curry",
+        "category": "nonveg",
+        "ingredients": ["Prawns", "Coconut Milk", "Spices"],
+        "time": "30min",
+        "steps": [
+            "Marinate prawns with turmeric and salt.",
+            "Prepare curry with coconut milk and spices. Add prawns.",
+            "Simmer until prawns are cooked."
+        ]
+    },
+    {
+        "recipe_id": 15,
+        "recipe_name": "Rajma Chawal",
+        "category": "veg",
+        "ingredients": ["Rajma", "Onions", "Tomatoes", "Spices"],
+        "time": "45min",
+        "steps": [
+            "Cook rajma in a pressure cooker.",
+            "Prepare a masala base with onions and tomatoes.",
+            "Add cooked rajma and simmer. Serve with rice."
+        ]
+    },
+    {
+        "recipe_id": 16,
+        "recipe_name": "Mutton Keema",
+        "category": "nonveg",
+        "ingredients": ["Mutton Mince", "Onions", "Tomatoes", "Spices"],
+        "time": "40min",
+        "steps": [
+            "Cook mutton mince with onions, tomatoes, and spices.",
+            "Simmer until keema is fully cooked and flavors develop.",
+            "Garnish with coriander."
+        ]
+    },
+    {
+        "recipe_id": 17,
+        "recipe_name": "Veg Manchurian",
+        "category": "veg",
+        "ingredients": ["Cabbage", "Carrot", "Soy Sauce", "Cornflour"],
+        "time": "30min",
+        "steps": [
+            "Prepare veggie balls with grated cabbage, carrot, and cornflour.",
+            "Deep fry balls and set aside.",
+            "Prepare sauce with soy sauce and spices. Toss balls in sauce."
+        ]
+    },
+    {
+        "recipe_id": 18,
+        "recipe_name": "Chicken Tikka",
+        "category": "nonveg",
+        "ingredients": ["Chicken", "Yogurt", "Tikka Masala"],
+        "time": "40min",
+        "steps": [
+            "Marinate chicken with yogurt and tikka masala.",
+            "Skewer and grill until fully cooked.",
+            "Serve with mint chutney."
+        ]
+    },
+    {
+        "recipe_id": 19,
+        "recipe_name": "Masala Dosa",
+        "category": "veg",
+        "ingredients": ["Rice Batter", "Potatoes", "Spices"],
+        "time": "30min",
+        "steps": [
+            "Prepare dosa using fermented batter.",
+            "Stuff dosa with spiced potato filling.",
+            "Serve with chutney and sambar."
+        ]
+    },
+    {
+        "recipe_id": 20,
+        "recipe_name": "Fish Fry",
+        "category": "nonveg",
+        "ingredients": ["Fish", "Spices", "Rice Flour"],
+        "time": "20min",
+        "steps": [
+            "Marinate fish with spices and coat in rice flour.",
+            "Shallow fry until golden brown.",
+            "Serve hot with lemon wedges."
+        ]
+    }
+]
