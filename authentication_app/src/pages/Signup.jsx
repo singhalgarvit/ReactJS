@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
+import {Link, useNavigate} from 'react-router-dom'
+import { useContext } from 'react';
+import { MyContext } from '../Mycontext';
 
 function Signup() {
+  const navigate=useNavigate();
+  const {username,setUsername,jwtToken,setJwtToken}=useContext(MyContext);
   const [showPassword,setShowPassword] = useState(false);
   const [userData,setUserData] = useState({
     name:"",
@@ -18,16 +23,37 @@ function Signup() {
   };
   
   
-  const handleSignup= (e)=>{
+  const handleSignup=async (e)=>{
     e.preventDefault();
-
-    
-
-    setUserData({
-      name:"",
-      email:"",
-      password:""
-    })
+    const url=`${process.env.REACT_APP_BACKEND_URL}/auth/user/signup`;
+    try{
+      const token = await fetch(url,{
+        method:"POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(userData)
+      })
+      
+      if(!token.ok){
+        const errMsg=await token.json();
+        throw new Error(errMsg);
+      }
+  
+      const data= await token.json();
+      localStorage.setItem("token",data.token);
+      localStorage.setItem("name",data.name);
+      setUsername(data.name);
+      setJwtToken(data.token);
+      navigate("/");
+      setUserData({
+        name:"",
+        email:"",
+        password:""
+      })
+    }catch(err){
+      alert(err);
+    }
   }
 
   return (
@@ -79,6 +105,7 @@ function Signup() {
 
         <button type='submit'>Signup</button>
       </form>
+      <p>Already Have an Account <Link to="/login">Login Here</Link></p>
     </div>
   )
 }
